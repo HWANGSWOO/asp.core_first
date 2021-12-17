@@ -13,16 +13,19 @@
                 <a class="navbar-brand" asp-controller="Home" asp-action="Index">App</a>
             </div>
             <ul class="nav navbar-nav">
-                
+
 
                 @if (User.Identity.IsAuthenticated)
                 {
                     <li><a asp-controller="Home" asp-action="Index">Home</a></li>
+                    <li><a asp-controller="Note" asp-action="Index">게시판</a></li>
+                    <li><a asp-controller="Note" asp-action="Add">추가</a></li>
 
                 }
                 @if (User.Identity.IsAuthenticated && User.IsInRole("Admin"))
                 {
                     <li><a asp-controller="Home" asp-action="Student">Student</a></li>
+
                 }
             </ul>
             <ul class="nav navbar-nav pull-right">

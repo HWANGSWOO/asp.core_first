@@ -46,6 +46,7 @@ namespace App
             services.AddTransient<DbSeeder>();
             services.AddScoped<ITeacherRepository, TeacherRepository>();
             services.AddScoped<IStudentRepository, StudentRepository>();
+            services.AddScoped<INoteRepository, NoteRepository>();
             services.AddMvc();
             services.Configure<CookiePolicyOptions>(options =>
             {

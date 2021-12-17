@@ -1,0 +1,22 @@
+﻿@model NoteViewModel
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>번호</th>
+            <th>제목</th>
+            <th>작성자</th>
+        </tr>
+    </thead>
+    <tbody>         
+         <tr>
+            <td>@Model.Note.NoteNo</td>
+            <td>@Model.Note.NoteTitle</td>
+            <td>@Model.Note.ID</td>
+        </tr>
+            
+    
+    </tbody>
+
+</table>
+
+<a class="btn btn-warning" asp-controller="Note" asp-action="Add">게시물 작성</a>

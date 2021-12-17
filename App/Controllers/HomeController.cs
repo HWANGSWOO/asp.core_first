@@ -36,6 +36,8 @@ namespace App.Controllers
             };
             return View(viewModel);
         }
+     
+
         [Authorize(Roles = "Admin")]
         public IActionResult Student()
         {
