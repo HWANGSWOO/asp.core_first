@@ -18,19 +18,19 @@ namespace App.Models
         /// <summary>
         /// 게시물 제목
         /// </summary>
-        [Required] //not null
+     
         public string NoteTitle { get; set; }
 
         /// <summary>
         /// 게시물 내용
         /// </summary>
-        [Required]
+     
         public string NoteContents { get; set; }
       
         /// <summary>
         /// 작성자 아이디
         /// </summary>
-        [Required]
+      
         public int ID { get; set; }
         
         [ForeignKey("ID")]

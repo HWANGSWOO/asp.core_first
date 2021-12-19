@@ -40,6 +40,8 @@ C:\Users\edvan\source\repos\App\App\obj\Debug\netcoreapp2.1\Razor\Views\Home\Edi
 C:\Users\edvan\source\repos\App\App\obj\Debug\netcoreapp2.1\Razor\Views\Account\Register.cshtml.g.cs
 C:\Users\edvan\source\repos\App\App\obj\Debug\netcoreapp2.1\Razor\Views\Account\Login.cshtml.g.cs
 C:\Users\edvan\source\repos\App\App\obj\Debug\netcoreapp2.1\Razor\Views\Home\Notice.cshtml.g.cs
-C:\Users\edvan\source\repos\App\App\obj\Debug\netcoreapp2.1\Razor\Views\Note\Add.cshtml.g.cs
-C:\Users\edvan\source\repos\App\App\obj\Debug\netcoreapp2.1\Razor\Views\Note\Edit.cshtml.g.cs
-C:\Users\edvan\source\repos\App\App\obj\Debug\netcoreapp2.1\Razor\Views\Note\Index.cshtml.g.cs
+C:\Users\edvan\source\repos\App\App\obj\Debug\netcoreapp2.1\Razor\Views\Notes\Create.cshtml.g.cs
+C:\Users\edvan\source\repos\App\App\obj\Debug\netcoreapp2.1\Razor\Views\Notes\Delete.cshtml.g.cs
+C:\Users\edvan\source\repos\App\App\obj\Debug\netcoreapp2.1\Razor\Views\Notes\Details.cshtml.g.cs
+C:\Users\edvan\source\repos\App\App\obj\Debug\netcoreapp2.1\Razor\Views\Notes\Edit.cshtml.g.cs
+C:\Users\edvan\source\repos\App\App\obj\Debug\netcoreapp2.1\Razor\Views\Notes\Index.cshtml.g.cs

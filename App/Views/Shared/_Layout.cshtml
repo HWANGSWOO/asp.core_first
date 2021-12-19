@@ -1,5 +1,10 @@
 ﻿<!DOCTYPE html>
+@if (IsSectionDefined("scripts"))
+{
+    RenderSection("scripts");
+}
 <html>
+
 <head>
     <meta name="viewport" content="width=device-width" />
     <title>@ViewBag.Title</title>
@@ -18,8 +23,8 @@
                 @if (User.Identity.IsAuthenticated)
                 {
                     <li><a asp-controller="Home" asp-action="Index">Home</a></li>
-                    <li><a asp-controller="Note" asp-action="Index">게시판</a></li>
-                    <li><a asp-controller="Note" asp-action="Add">추가</a></li>
+                    <li><a asp-controller="Notes" asp-action="Index">게시판</a></li>
+
 
                 }
                 @if (User.Identity.IsAuthenticated && User.IsInRole("Admin"))
