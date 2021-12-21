@@ -48,7 +48,7 @@ namespace App.Controllers
         // GET: Notes/Create
         public IActionResult Create()
         {
-            ViewData["ID"] = new SelectList(_context.Students, "Id", "Country");
+            ViewData["ID"] = new SelectList(_context.Students, "Id", "Id");
             return View();
         }
 

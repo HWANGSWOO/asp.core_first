@@ -43,6 +43,7 @@
         <tr>
             <th>이름</th>
             <th>나이</th>
+            <th>국가</th>
             <th>Action</th>
         </tr>
     </thread>
@@ -53,6 +54,7 @@
             =
             <td>@student.Name</td>
             <td>@student.Age</td>
+            <td>@student.Country</td>
             <td><a asp-controller="Home" asp-action="Detail" asp-route-id="@student.Id">Detail</a></td>
             <td><a asp-controller="Home" asp-action="Edit" asp-route-id="@student.Id">Edit</a></td>
             <td><a asp-controller="Home" asp-action="Delete" asp-route-id="@student.Id">Delete</a></td>

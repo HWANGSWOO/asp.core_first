@@ -16,7 +16,7 @@ namespace App.Models
         [Range(15, 70)]
         public int Age { get; set; }
         [Required]
-        [MinLength(5)]
+        [MinLength(3)]
         public string Country { get; set; }
     }
 }

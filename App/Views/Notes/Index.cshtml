@@ -21,6 +21,7 @@
             <th>
                 @Html.DisplayNameFor(model => model.Student)
             </th>
+          
             <th></th>
         </tr>
     </thead>
@@ -34,12 +35,12 @@
                 @Html.DisplayFor(modelItem => item.NoteContents)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.Student.Country)
+                @Html.DisplayFor(modelItem => item.Student.Name)
             </td>
             <td>
-                <a asp-action="Edit" asp-route-id="@item.NoteNo">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.NoteNo">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.NoteNo">Delete</a>
+                <a asp-action="Edit" asp-route-id="@item.NoteNo">수정</a> |
+                <a asp-action="Details" asp-route-id="@item.NoteNo">상세</a> |
+                <a asp-action="Delete" asp-route-id="@item.NoteNo">삭제</a>
             </td>
         </tr>
 }
